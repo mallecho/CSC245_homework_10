@@ -18,7 +18,7 @@ plt.bar(categories, values, color='skyblue', edgecolor='black', alpha=0.7)
 plt.title("Bar Plot")
 plt.xlabel("Categories")
 plt.ylabel("Values")
-plt.grid(axis='y', linestyle='-', alpha=0.5)  # Changed to solid line for compatibility
+plt.grid(axis='y', linestyle='-', alpha=0.5)  
 plt.show()
 
 # Horizontal bar plot
@@ -27,7 +27,7 @@ plt.barh(categories, values, color='lightcoral', edgecolor='black', alpha=0.7)
 plt.title("Horizontal Bar Plot")
 plt.xlabel("Values")
 plt.ylabel("Categories")
-plt.grid(axis='x', linestyle='-', alpha=0.5)  # Changed to solid line for compatibility
+plt.grid(axis='x', linestyle='-', alpha=0.5)  
 plt.show()
 
 # Histogram
@@ -36,7 +36,7 @@ plt.hist(x, bins=30, color='gold', edgecolor='black', alpha=0.8)
 plt.title("Histogram")
 plt.xlabel("Value")
 plt.ylabel("Frequency")
-plt.grid(axis='y', linestyle='-', alpha=0.5)  # Changed to solid line for compatibility
+plt.grid(axis='y', linestyle='-', alpha=0.5)  
 plt.show()
 
 # Scatter plot
@@ -45,7 +45,7 @@ plt.scatter(scatter_x, scatter_y, s=scatter_size, c='purple', alpha=0.6, edgecol
 plt.title("Scatter Plot")
 plt.xlabel("X")
 plt.ylabel("Y")
-plt.grid(True, linestyle='-', alpha=0.5)  # Changed to solid line for compatibility
+plt.grid(True, linestyle='-', alpha=0.5)  
 plt.show()
 
 # Pie chart
@@ -62,7 +62,7 @@ plt.title("Area Plot")
 plt.xlabel("X")
 plt.ylabel("Y")
 plt.legend()
-plt.grid(True, linestyle='-', alpha=0.5)  # Changed to solid line for compatibility
+plt.grid(True, linestyle='-', alpha=0.5)  
 plt.show()
 
 # Stacked area plot
@@ -72,7 +72,7 @@ plt.title("Stacked Area Plot")
 plt.xlabel("X")
 plt.ylabel("Y")
 plt.legend(loc="upper right")
-plt.grid(True, linestyle='-', alpha=0.5)  # Changed to solid line for compatibility
+plt.grid(True, linestyle='-', alpha=0.5)  
 plt.show()
 
 
@@ -83,21 +83,21 @@ plt.show()
 
 
 #Bar and Horizontal Bar Plots:
-#Ideal for visualizing categorical data, comparisons, or rankings.
+#It's good for clear data comparision vizualized in simple bar form.
+
 
 
 #Histogram:
-#Useful for analyzing distributions or frequency of data points.
+# It's good to use for analyzing the frequency of data being points.
 
 
 #Scatter Plot:
-#Great for visualizing relationships or correlations between noisy data with an extra dimension (e.g., size or color).
+#Good for visualizing the relationship between noisy data.
+
 
 
 #Pie Chart:
-#Effective for showing proportions of categorical data but can become cluttered with too many categories.
-
+#It's good for showing the different shares between data, such as 30% of a data point is such and such and 10% is another, but can be messy.
 
 #Area and Stacked Area Plots:
-
-#Area plots highlight trends over a continuous range, while stacked area plots emphasize the contribution of individual components to the total.
+#Good for showing the continous range of data and relationship between different data and how they relate and overlap
